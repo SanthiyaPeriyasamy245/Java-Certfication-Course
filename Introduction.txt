@@ -1,0 +1,45 @@
+
+Jshell - Read Eval Print Loop (REPL)
+
+->This tool allows you to execute Java code, getting immediate results.
+
+-> Example :
+           jshell> 5*10
+	   $1 ==> 50
+
+-> operators : + , - , * , / , % (modulo -gives    Remainder)
+
+-> Excercises :
+1. Calculate Number of Minutes in a day 
+
+1 day = 24 hours 
+1 hour= 60 mins then,
+One day=24*60=1440 minutes per day.
+
+Solution :
+	jshell> 24*60
+	$1 ==> 1440
+
+2. Calculate Number of Seconds in a day
+
+Minutes per day = 1440 mins
+then seconds per day = 1440*60=86400 seconds
+
+Solution :
+	jshell> 1440*60
+	$2 ==> 86400
+
+Examples :
+
+	jshell> 5/2
+	$4 ==> 2
+
+-> Here when integer value divided by integer the result will be integer that's why in above expression it results in integer value as 2 not as 2.5.
+
+-> To get result as 2.5 we need to write it as floating 	   points 5.0/2.0 result will be 2.5.
+
+Example :
+        jshell> 5.0/2.0
+        $5 ==> 2.5
+
+
