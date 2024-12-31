@@ -34,9 +34,10 @@ Examples :
 	jshell> 5/2
 	$4 ==> 2
 
--> Here when integer value divided by integer the result will be integer that's why in above expression it results in integer value as 2 not as 2.5.
+-> Here when integer value divided by integer the result will be integer
+that's why in above expression it results in integer value as 2 not as 2.5.
 
--> To get result as 2.5 we need to write it as floating 	   points 5.0/2.0 result will be 2.5.
+-> To get result as 2.5 we need to write it as floating points 5.0/2.0 result will be 2.5.
 
 Example :
         jshell> 5.0/2.0
