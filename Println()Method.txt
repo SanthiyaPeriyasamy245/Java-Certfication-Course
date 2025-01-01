@@ -1,0 +1,51 @@
+
+System.out.println("Happy Learning!");
+System.out.println(2*3);
+
+->here the 2 and 3 are parameters.
+->println() is a predefined method to print a statement.
+->System is a class and out is a variable.
+-> data within "" are string.
+
+Excercise:
+
+To print multiplication table
+
+jshell> for(int i=1;i<=10;i++){
+   ...>     System.out.println(n*i);
+   ...> }
+output :
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+
+->To print a statements in separate lines or new line (\n).
+ jshell> System.out.println("hi!,\n Be consistent")
+O/P:  hi!, 
+  Be consistent
+
+-> To print a Statements with space (\t)
+	jshell> System.out.println("hi\tMy dear Family!")
+	O/P : hi      My dear Family!
+
+->Math Operations
+
+jshell> System.out.println(Math.random())
+O/P : 0.17655720780047857
+jshell> System.out.println(Math.min(2,3))
+O/P :2 (similarly for max function o/p will be 3.)
+
+Printf():
+it allows formating and printing values from expressions.
+Example :
+jshell> System.out.printf("%.2f",2.3456).println()
+
+%c-char,%s-string,%f-float,%d-int,%b-boolean
+2.35
