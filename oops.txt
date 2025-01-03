@@ -1,0 +1,15 @@
+Object Oriented Programming
+
+1. class -> template to create an object it consist of variables and functions.
+2. Object -> Physical Reality
+3. Reference variables stored at stack memory and objects are stored in heap memory.
+4. "dot" operator used to connect the reference variable with the object's instance variables.
+5. "New" is a keyword to allocate a memory space in the heap for an object.
+6. constructor will be called whenever we creating an object using new key word.
+7. object creation done at run time and reference variable memory allocation done at compile time.
+8. Constructor over loading can be done.
+9. this. refers to the current object.
+10. this() refers to the current constructor.
+11. Wrapper class final class which is used to use primitives as objects.
+12. final key word is used to make something as constant.
+13. Garbage collection in java can't be done manually because it automatically does and we can able to know whenever the garbage collection happens by using finalize() method.
