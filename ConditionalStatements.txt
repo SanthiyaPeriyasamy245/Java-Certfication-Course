@@ -1,0 +1,22 @@
+Conditional Statements
+
+1.if
+
+->only execute a statement when the condition is true.
+
+2.if else
+
+->if block will be executed when the condition is true
+other wise if condition is false else block will be executed.
+
+3.else if
+
+->when there are multiple conditions needs to be checked we can use else if it will execute when the previous conditions are false.
+
+4.Nested if
+
+->if inside an if.
+
+5. Switch 
+
+->It can be done only with int,short,char,string,enum types.
