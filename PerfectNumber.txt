@@ -1,0 +1,13 @@
+public class PerfectNumberChecker {
+    public boolean isPerfectNumber(int number) {
+        int sum=1;
+        for(int i=2;i<=Math.sqrt(number);i++)
+        {
+            if(number%i==0)
+            {
+                sum=sum+i+number/i;
+            }
+        }
+        return number<=1?false:number==sum;
+    }
+}

@@ -1,0 +1,15 @@
+int min=Math.min(a,b);
+        int max=Math.max(a,b);
+        for(int i=1;i<=min;i++)
+        {
+           if(min%i==0)
+           {
+               if(((max*i)%min)==0)
+               {
+                   ans[0]=max*i;
+                   break;
+               }
+           }
+           
+            
+        }
