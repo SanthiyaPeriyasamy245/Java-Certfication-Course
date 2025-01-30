@@ -1,0 +1,82 @@
+
+
+class itself is a reference type
+for an example,
+ class Ticketbooking{
+}
+here this Ticketbooking class is a reference type
+when object is being creted.
+Ticketbooking ticket=new Ticketbooking();
+ticket reference variable has a type of Ticketbooking type.
+
+
+String 
+String s="Java";
+s-> reference variable
+"java"-> is an instance.
+in string index starts with zero.
+j-0
+a-1
+v-2
+a-3
+s.substring(0,2); // substring method is used to get a string of specific range it includes(i,j-1) (0,1)
+
+s.charAt(0) to fetch a character at specific index.
+
+s.indexOf('a') // it fetches the index of a specified character in a string.
+
+s.lastIndexOf('a') // it will give you last occured index of the specified character.
+
+s.contains("s") // it will check whether the string contains specified string or not.
+
+s.startsWith("ja") // it will check whether the string is starts with specified string similarly for endsWtih().
+
+s.isEmpty() // it helps to check whtehter the given string is empty or not.
+
+String str="java"
+s.equals(str) // it helps to check whether to strings are equal or not.
+
+s.concat(" programming")
+
+//concat function is used to concatination of strings.
+
+once instance of string is being created it can't be changed so strings are immutable.
+
+s.toUpeerCase() // this method used to convert a string to uppercase.
+
+s.toLowerCase() // this method used to convert string to lowercase.
+
+s.trim() // it will remove extra spaces.
+
+String.join(",","sandy","siva","gowtham"); // to join the string based on the first arguments.string will be join with the first arguments that we mention. 
+
+s.replace("ja","java8") // it helps in replacing strings & characters.
+
+
+string methos are,
+charAt(                chars()                codePointAt(           codePointBefore(       codePointCount(        codePoints()           compareTo(
+compareToIgnoreCase(   concat(                contains(              contentEquals(         describeConstable()    endsWith(              equals(
+equalsIgnoreCase(      formatted(             getBytes(              getChars(              getClass()             hashCode()             indent(
+indexOf(               intern()               isBlank()              isEmpty()              lastIndexOf(           length()               lines()
+matches(               notify()               notifyAll()            offsetByCodePoints(    regionMatches(         repeat(                replace(
+replaceAll(            replaceFirst(          resolveConstantDesc(   split(                 startsWith(            strip()                stripIndent()
+stripLeading()         stripTrailing()        subSequence(           substring(             toCharArray()          toLowerCase(           toString()
+toUpperCase(           transform(             translateEscapes()     trim()                 wait(
+isUpperCase() isLowerCase()
+
+
+
+String Buffer and String Builder
+
+StringBuffer sb=new StringBuffer();
+
+sb.append("shappyfox")
+
+sb.append("amazon")
+
+stringbuffer alllows mutable operation.
+
+sb.setCharAt(1,'e')
+
+Thread Safety: StringBuffer is thread-safe, while StringBuilder is not. 
+
