@@ -1,0 +1,40 @@
+Joda Time Framework
+we need to import java.time.*;
+to utilise following classes.
+1.LocalTime
+2.LocalDate
+3.LocalDateTime.
+
+Note :
+
+*** LocalDate ,LocalDateTime and LocalTime are all immutable All modification methods calls return new Objects.
+****
+example ,
+
+LocalDate t=LocalDate.now();
+System.out.println(t.getMonth());
+System.out.println(t.getDayOfYear());
+System.out.println(t.getDayOfWeek());
+System.out.println(t.getDayOfYear());
+System.out.println(t.isLeapYear());
+System.out.println(t.lengthOfMonth());
+System.out.println(t.plusDays(150));	
+System.out.println(t.minusYears(1).isLeapYear());
+	
+// By using of method we can assign the date.
+
+LocalDate date=LocalDate.of(1800,1,1);
+System.out.print(date.isLeapYear());	
+
+withYear() method will give same date month with the given year.
+LocalDate leap=date.withYear(2000);
+
+// withDayOfYear() it will give 100 th day of the year.
+
+System.out.println(leap.withDayOfYear(100));
+
+System.out.println(leap.isLeapYear());
+
+to check whether the date is before another date or after another date.
+leap.isAfter(date));
+	

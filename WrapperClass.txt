@@ -1,0 +1,28 @@
+
+Wrapper Classes
+
+-> All wrapper classes are immutable.
+
+-> there are the ways to assign a value using wrapper class.
+	Integer value=new Integer(3); 
+	Integer num=new Integer(3)
+
+-> value==num will result in flase;
+
+	Integer value1=Integer.ValueOf(2);
+	Integer num1=Integer.ValueOf(2);
+
+->here valuOf wil lcheck for if thee is anyother object exist with same value then it will use that one.to reference variable will refer to same object.
+
+->by using Integer.valueOf() method we can reuse the object if it's already been created.
+value1==num1 will result in true.
+
+Integer.valueOf() helps in create an instance.
+for eg; Integer v=Integer.valueOf(5);
+     it will be like v=5; this is known as auto boxing.
+
+Integer.MAX_VALUE -> provides maximum value of type int.
+Integer.MIN_VALUE -> provides minimum value of type int
+Integer.SIZE -> provides bit size of int which is 32
+Integer.BYTES -> provies byte value of int type which is 4.
+
