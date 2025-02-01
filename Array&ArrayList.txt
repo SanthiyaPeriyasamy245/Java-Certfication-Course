@@ -1,0 +1,68 @@
+Arrays and ArrayList
+
+Array allows you to sore multiple values of same type.
+
+Array :
+
+int[]marks -declaration of array
+int[]marks={1,2,3,4,5}; - defining a values in an array
+int[]marks=new int[5]; here we are declaring an array and assign a size of an array.
+index sarts from 0 to arr.length-1;
+for array to find it's length 
+
+arr.length -> where here the length is a property.
+
+when we create an array of objects the default value will be null.
+public class student{
+}
+Student[]s1=new Student[5];
+
+when we want to print each value of an array we can use array like below,
+
+int[]numbers={1,2,3,4,5,6,7,8,9,10};
+enhanced for loop.
+for(int x:numbers)
+{
+System.out.println(x);
+}
+
+
+
+*** Arrays.fill() ***	
+when wa want to initialize same value for all the indices in the array.
+int[]arr=new int[10];
+		
+Arrays.fill(arr,10);
+		
+System.out.println(Arrays.toString(arr));
+
+
+*** Arrays.equals()*** and Arrays..sort() will sort the array (inplace).
+
+	int[]arr1={1,2,3,4,5};
+        int[]arr2={1,2,3,4,5};
+	System.out.println(Arrays.equals(arr1,arr2));
+
+
+
+***** VarArg arguments *****
+
+when we don't know how many elements we are oing to pass as an arguments the parameters which get those arguments will be stored in an array
+
+for an example ,
+
+if we pass some number of values to a function/method
+int total=sum(1,2,3,4,5,6,7,8,9,10); //here if we change the no of values those values will be stored as array in vararg arguments.
+public static int sum(int...v)
+{
+int t=0;
+for(int x:v)
+{
+t=t+x;
+}
+return t;
+}
+
+Need of ArrayList over array!!!
+
+The main problem with array is you can't dynamically increase/decrease the size of an array.adding new elements and removing some existing elements in an array is not easy and that's where arraylist takes place.
