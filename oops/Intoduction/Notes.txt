@@ -1,0 +1,17 @@
+Abstract Class :
+
+An abstract class is mostly used to provide a base for subclasses to extend and implement the abstract methods and override or use the implemented methods in abstract class.
+
+abstract class can have members and methods.
+A single class can't extend more than one abstract class.
+
+Interfaces:
+
+Interfaces which supports multiple inheritance.it's done by using implements key word.interfaces are contract between two classes.
+
+
+Polymorphism :
+
+compile time polymorphism (Mehtod overloading)
+
+run time polymorphism (Method overriding). { same code different behaviour based on the content of a reference variable.}
