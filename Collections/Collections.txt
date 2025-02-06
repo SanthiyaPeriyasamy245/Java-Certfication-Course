@@ -1,0 +1,25 @@
+
+   Collections : List , Set , Queue, Map .
+ 
+   List.of() - it's a static method which is used to create immutable list.
+   List : it helps to store and remove an element at specific index and it allows duplicates.
+
+  List<String>arr=List.of("Brindha","Priya","Yamuna"); -> immutable list
+  List<String>newarr=new ArrayList<String>(arr);
+
+  ArrayList : insertion & deletion is slow.
+  LinkedList :  insertion & deletion fast but iteration is slow.	
+
+  Vector is synchronized -thread safe and almost constant time access
+  ArrayList isn't synchronized - it's not thread safe 
+
+  To compare two objects of same type we need to implement comparable interface which has compareto() method.
+
+   Comparable interface provides natural ordering (for sorting).
+   Comparator interface is to provide sorting based on the user preference.
+
+   Enhance for loop will thrown concurrent modification exception when we try to modify the list. because modifcation during traversal is    not   coordinated so it will throw that exception.
+
+   To modify the list while traversing we can use iterator.
+
+
