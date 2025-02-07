@@ -1,0 +1,14 @@
+Map
+  
+it implements navigable map interface
+
+it stores in key value pair.
+Hashtable
+LinkedHashMao
+HashMap
+Tree Map
+
+HahsMap : 
+unsorted and unordered .
+
+HashMap allows a key with null value and hashtable doesn't.
