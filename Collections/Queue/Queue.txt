@@ -1,0 +1,4 @@
+Queue
+
+Queue provides methods such as add,remove,poll,peek,offer.
+priority queue data will be stored in sorted order 

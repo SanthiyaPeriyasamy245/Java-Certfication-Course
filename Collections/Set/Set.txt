@@ -1,0 +1,27 @@
+Set Interface
+
+It doesn't allow duplication.
+Set.of()  : it used to create immutable set.(similar to list).
+Set is used to store unique elements.
+
+Hashing is a process used to store an elemnt at specific position.it's done by  hashcode() method.
+
+1. HashSet : it doesn't sotre element in a specific order.
+
+2. LinkedHashset : stores elements in the order that elements are being inserted.
+
+3. TreeSet : it stores element in sorted order.
+
+Tree hepls to store an element in sorted order
+all the elements to the left side of an specific element would be small and right side is large. 
+
+tree set can do following operations
+
+lower -(exclusive of given number) & floor (inclusively of given number) - it gives a number which is smaller than the given number.
+
+higher -(exclusive of given number) & ceiling(inclusively of given number) - it gives a number which is bigger than the given number.
+
+subSet(lower limit,upper limit ) it gives a values which are between the lower limit and upper limit to make those limits to be inclusive we can add true or else flase to not make it as an inclusive subSet(lowerlimit,true,upperlimit,true)
+
+headSet() it gives a numbers upto given number .
+tailSet() it gives a numbers above given number.
