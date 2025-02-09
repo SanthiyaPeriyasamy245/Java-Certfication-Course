@@ -1,0 +1,22 @@
+
+Generics :
+
+Generics means parameterized types. The idea is to allow a type (like Integer, String, etc., or user-defined types) to be a parameter.
+
+Generics allow writing a single method, class, or interface that can work with different types, reducing code duplication.
+
+Upper Bounded Wildcards
+
+An upper bounded wildcard <? extends Type> restricts the unknown type to Type or any of its subtypes. This is useful when you want to read data from a generic type and ensure it's of a certain type or its subtype.
+
+Lower Bounded Wildcards
+
+A lower bounded wildcard <? super Type> restricts the unknown type to Type or any of its supertypes. This is useful when you want to write data to a generic type and ensure it can accept objects of a certain type or its supertype.
+
+example :
+public void addIntegers(List<? super Integer> list) {
+    list.add(10);
+    list.add(20);
+}
+
+In this example, addIntegers can accept a list of Integer, Number, Object, or any other supertype of Integer.
