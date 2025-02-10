@@ -1,0 +1,15 @@
+Functional Programming
+
+
+Functions are first class citizens.
+
+functions can be treated like any other variable or object
+
+They can be passed as arguments to other functions, returned as values from functions, and assigned to variables.
+
+ Streams are often used for operations like filtering, mapping, and reducing data.
+
+Unlike collections, streams do not store data; instead, they operate on a source (like a collection or array) and produce a result without modifying the original source.
+
+Lambda expression - short hand method.
+
