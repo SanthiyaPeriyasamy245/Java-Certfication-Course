@@ -1,0 +1,14 @@
+		
+
+   Exception Handling
+
+  Exception handling in Java is used to ensure that your program can    continue running smoothly, even when unexpected errors or   problems  occur, by catching and managing those exceptions without crashing the    entire program.
+
+   NullPointerException is a subclass of exception
+   ArrayIndexOutOfBoundsException is a subclass of exception.
+   finally will always execute even though there is no exception or if     there is any exception.
+
+   Finally use case 
+   Even though there is any exception in some point of code regardless of that  the code's remaining part should be executed well 
+
+   Checked Exception & Unchecked Exception
