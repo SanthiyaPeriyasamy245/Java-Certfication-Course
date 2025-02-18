@@ -2,13 +2,40 @@
 
    Exception Handling
 
-  Exception handling in Java is used to ensure that your program can    continue running smoothly, even when unexpected errors or   problems  occur, by catching and managing those exceptions without crashing the    entire program.
+Exception handling in Java is used to ensure that your program can    continue running smoothly, even when unexpected errors or   problems  occur, by catching and managing those exceptions without crashing the    entire program.
 
    NullPointerException is a subclass of exception
    ArrayIndexOutOfBoundsException is a subclass of exception.
    finally will always execute even though there is no exception or if     there is any exception.
 
-   Finally use case 
-   Even though there is any exception in some point of code regardless of that  the code's remaining part should be executed well 
+Finally use case : 
+Even though there is any exception in some point of code regardless of that  the code's remaining part should be executed well 
 
-   Checked Exception & Unchecked Exception
+Checked Exception & Unchecked Exception
+Checked exception: IOException (not a subclass of RuntimeException)
+Unchecked exception: NullPointerException (a subclass of RuntimeException) 
+
+
+For checked exceptions we can't throw exception direclty for that we need to throws exception
+
+Whenever we are throwing checked exception we need to use throws in a method.
+
+Checked Exceptions:
+
+Caught at compile time. 
+
+Usually related to external factors like file I/O, network access, etc. 
+
+The programmer must explicitly handle these exceptions using try-catch blocks or declare them in the method signature with "throws" keyword.
+ 
+Examples: IOException, ClassNotFoundException 
+
+Unchecked Exceptions:
+
+Caught at runtime. 
+
+Usually represent programming errors like accessing a null pointer, incorrect array indexing, or invalid type casting. 
+
+The compiler does not force the programmer to handle them explicitly. 
+
+Examples: NullPointerException, ArithmeticException, ArrayIndexOutOfBoundsException 
