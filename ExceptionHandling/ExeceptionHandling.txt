@@ -39,3 +39,13 @@ Usually represent programming errors like accessing a null pointer, incorrect ar
 The compiler does not force the programmer to handle them explicitly. 
 
 Examples: NullPointerException, ArithmeticException, ArrayIndexOutOfBoundsException 
+
+
+Reasons Occurring IOException
+Some common reasons why IOException takes place are:
+
+File not found.
+False user input.
+Bad URL for downloading files.
+File permission causes.
+Input/Output device issues.
