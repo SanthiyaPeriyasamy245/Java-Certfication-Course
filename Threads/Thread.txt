@@ -1,0 +1,32 @@
+
+	                 Threads and MultiThreading
+       
+Threads can be created in two ways
+      1. extends Thread
+      2. implements Runnable
+
+ By extending Thread
+ public void run(){Write the tasks}  
+
+To execute thread we need to use start() if we call it directly as run() it works similarly to another methods.   
+
+ The start() method, responsible for initiating a new thread
+ A Thread object must be explicitly created, passing the Runnable    instance to its constructor. The start() method is then called on this   Thread object.      
+
+By using setPriority method we can actually set priority for thread.
+  
+MIN_PRIORITY=1 , MAX_PRIORITY=10;   
+
+Thread.sleep(1000) is used to make thread wait for 1 second.
+
+synchronized - keyword Only one thread can be access that specific code at a time.
+
+
+Thread.yield() causes the current thread to give up the CPU, allowing the other thread to run for a time slice.
+
+ExecutroService it provides single thread executor() from executors to call single thread at a time.
+
+the ExecutorService in Java is used to manage and run multiple threads concurrently. It provides a higher-level abstraction over traditional thread management, simplifying the process of executing tasks in parallel. Instead of manually creating and managing threads, you can submit tasks to an ExecutorService, which handles the thread creation, scheduling, and execution behind the scenes.
+
+The Callable interface in Java allows a thread to return a value upon completion. It is similar to the Runnable interface, but its call() method can return a result or throw an exception, unlike Runnable's run() method, which does not return a value.
+
