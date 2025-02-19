@@ -1,4 +1,9 @@
 Queue
 
 Queue provides methods such as add,remove,poll,peek,offer.
-priority queue data will be stored in sorted order 
+
+add(element): This method attempts to insert the specified element into the queue. If the queue has available space, the element is added, and the method returns true. However, if the queue is full or has reached its capacity, it throws an IllegalStateException.
+
+offer(element): This method also attempts to insert the specified element into the queue. If successful, it returns true. However, unlike add(), if the queue is full or has reached its capacity, it returns false instead of throwing an exception.
+
+ peek and poll both return top of the queue but poll removes that element once it  retrived
