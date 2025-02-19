@@ -1,0 +1,25 @@
+
+
+Files.list(Paths.get(".")).forEach(System.out::println) -> it will give all the folders in the current directory file.
+
+Files.walk(paths.get("."),1) // it wil walk through level 1.
+
+Files.find(directory,depth,matcher); metcher is a lambda expression.
+
+To read file.
+
+Path pathtoread=Paths.get("./path");
+
+List<String>lines=Files.readAll(pathtoread);
+
+Files.lines(pathtoread).forEach(System.out::println);
+
+To writing into a File
+
+Path pathtofile=Paths.get("paths with newfile name");
+
+List<Integer>=new ArrayList<List.of(1,2,3,4,5,6);
+
+Files.write(pathtofile,list)
+
+
