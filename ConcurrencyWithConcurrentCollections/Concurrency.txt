@@ -7,3 +7,5 @@ By using a lock mechanism, you can ensure that only one thread can access and mo
 
 Atomic operations for simple operations:
 Many programming languages provide atomic operations for basic operations like incrementing or decrementing a value, which are guaranteed to be completed as a single, indivisible unit, ensuring thread safety without explicitly using locks for those specific cases.
+
+while multiple thread access same variable if it's primitive it will leads to collision or race condition but if it's atomic integer it will check if any other thread doing increment other threads should wait before incrementing it .
