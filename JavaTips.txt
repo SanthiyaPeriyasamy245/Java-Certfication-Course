@@ -1,0 +1,66 @@
+Java Tips 
+
+Importing :
+
+java.lang always internally import we don't need to import it explicitly.
+
+import static java.lang.System.out;
+
+by using this we don't need to use system.out instead we can use out.println();
+
+import static java.util.Collections.*; 
+we can import all static methods from Collections.
+so w ecan use sort() instead of Collections.sort().
+
+Access Modifier :
+
+public , protected , default , private.
+
+class can be either public or default (no modifier)
+private-only accesseble only inside that specific class.
+public - can accessable every where.
+protected-same package and it's subclasses.
+
+final :
+if a class is final it can't extended you can't do inheritance .
+
+To prevent modifying behviour of a specific class.
+
+Methods can also be final if a method is final it can't be overriden.
+
+if a variable is final it can't be changed furthur only be assigned once.
+
+static : it can be shared among all the objects. non static methods or variables  can't be accessed from static methods.
+
+A non-static inner class instance can't be created without an instance of outer class.
+ A static method doesn't require outer class instance to create inner class object.
+
+enums :
+ordinal() -> to get index.
+enum Season{
+private int idx;
+
+SUMMER(1),WINTER(2),SPRING(3);
+private public  Season(int n)
+{
+this.idx=n;
+}
+public int getValue()
+{
+return value;
+}
+}
+public class enums{
+public static vod main()
+{
+Season season=Season.valueOf("WINTER);
+System.out.println(Season.WINTER.getvalue());
+Sout(Arrays.toString(Season.values()); 
+// Season.values will return array.
+}
+}
+
+
+
+
+
