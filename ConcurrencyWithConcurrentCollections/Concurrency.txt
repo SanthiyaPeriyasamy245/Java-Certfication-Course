@@ -1,0 +1,9 @@
+"i++" is not atomic:
+This is because the increment operation is actually composed of multiple steps: reading the current value of "i", adding 1 to it, and then storing the updated value back to "i". 
+In a multithreaded environment, another thread could potentially access and modify "i" between these steps, leading to a race condition.
+
+Locks provide thread safety:
+By using a lock mechanism, you can ensure that only one thread can access and modify a shared variable like "i" at a time, preventing race conditions and guaranteeing thread safety.
+
+Atomic operations for simple operations:
+Many programming languages provide atomic operations for basic operations like incrementing or decrementing a value, which are guaranteed to be completed as a single, indivisible unit, ensuring thread safety without explicitly using locks for those specific cases.
