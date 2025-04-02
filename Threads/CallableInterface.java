@@ -19,6 +19,7 @@ public class CallableInterface implements Callable<String> {
 	public String call() throws Exception {
 	
 		return name +" callable execution";
+		  // Code to be executed in a separate thread
 	}
 	public static void main(String[]args) throws InterruptedException, ExecutionException
 	{
