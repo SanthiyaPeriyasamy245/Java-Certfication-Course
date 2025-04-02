@@ -6,7 +6,7 @@
    rt.jar grew to 60+MB by java 8.
    Modularize applications.
 
-C:\Users\ADMIN>java --list-modules
+
 java.base@23.0.1
 java.compiler@23.0.1
 java.datatransfer@23.0.1
