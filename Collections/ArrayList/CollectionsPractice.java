@@ -20,8 +20,8 @@ public class  CollectionsPractice {
 	namescopy.add("jane");
 	System.out.println(namescopy);
 	List<Integer>numberscopy1 =new LinkedList<Integer>(numbers); // linked list
-	List<Integer>numberscopy2 =new Vector<Integer>(numbers); // linked list
-	numberscopy2.remove(2);
+	List<Integer>numberscopy2 =new Vector<Integer>(numbers); 
+		numberscopy2.remove(2);
 	
 	// setting a an element at specific index or changing a value at specific index.
 	numberscopy2.set(3,13);
