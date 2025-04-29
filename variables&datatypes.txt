@@ -16,7 +16,7 @@ Variable Types:
 
 7.char= 16 biits
 
-8.boolean =  ture/false.
+8.boolean =  true/false.
 
 Excercise :
 
