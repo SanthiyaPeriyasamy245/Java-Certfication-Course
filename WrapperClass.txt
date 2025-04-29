@@ -6,7 +6,7 @@ Wrapper Classes
 -> there are the ways to assign a value using wrapper class.
 	Integer value=new Integer(3); 
 	Integer num=new Integer(3)
-
+->  integer cache, stores Integer objects for values in the range of -128 to 127, inclusive. 
 -> value==num will result in flase;
 
 	Integer value1=Integer.ValueOf(2);
