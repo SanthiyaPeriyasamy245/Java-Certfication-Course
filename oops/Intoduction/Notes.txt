@@ -15,3 +15,21 @@ Polymorphism :
 compile time polymorphism (Mehtod overloading)
 
 run time polymorphism (Method overriding). { same code different behaviour based on the content of a reference variable.}
+
+Interfaces:
+Purpose: Define a contract, a set of methods that a class must implement. They enforce a specific behavior.
+Methods: All methods in an interface are implicitly abstract and public.
+Implementation: Interfaces cannot have method implementations, only declarations.
+Inheritance: A class can implement multiple interfaces, effectively inheriting multiple behaviors.
+Fields: Interfaces can only have public, static, and final fields. 
+Abstract Classes:
+Purpose:
+Define a base class for a hierarchy of related classes, often with partial implementation. 
+Methods:
+Abstract classes can have both abstract (no implementation) and concrete (with implementation) methods. 
+Implementation:
+Abstract classes can have both abstract and concrete method implementations. 
+Inheritance:
+A class can only extend one abstract class. 
+Fields:
+Abstract classes can have instance variables, including those with various access modifiers. 
