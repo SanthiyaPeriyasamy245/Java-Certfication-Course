@@ -7,7 +7,7 @@ Wrapper Classes
 	Integer value=new Integer(3); 
 	Integer num=new Integer(3)
 ->  integer cache, stores Integer objects for values in the range of -128 to 127, inclusive. 
--> value==num will result in flase;
+-> value==num will result in false;
 
 	Integer value1=Integer.ValueOf(2);
 	Integer num1=Integer.ValueOf(2);
