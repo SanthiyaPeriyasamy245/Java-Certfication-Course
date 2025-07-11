@@ -1,0 +1,17 @@
+
+
+ Stack
+
+ -First in first out
+- Last in last out
+- Internally it uses array to store an element
+- It uses pointer variable whenever element get pop() or push().
+-actually element is not getting deleted pointer which moves whenever pop() method get called.
+
+for an example . in a stakcif i have elements like,
+
+ptr=4; -> whenever pop gets exectuted it reduce by 1 
+[1,2,3,4,5] when i call pop() method it will display 5
+then again pop() 4 and so on...
+
+
